@@ -1,0 +1,22 @@
+{
+  "name": "fundme-hardhat",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat test --network sepolia",
+    "coverage": "npx hardhat coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.5",
+    "hardhat-deploy-ethers": "^0.4.2",
+    "hardhat-deploy": "^0.12.4",
+    "@chainlink/contracts": "^1.1.1"
+  }
+}
