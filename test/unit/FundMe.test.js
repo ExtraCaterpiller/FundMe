@@ -23,7 +23,7 @@ const { developmentChains } = require('../../helper-hardhat-config')
         mockV3Aggregator = await ethers.getContractAt("MockV3Aggregator", mockV3AggregatorDeployment.address)
     })
 
-    describe("contrustor", async () => {
+    describe("contructor", async () => {
         it("Sets the aggregator addresses correctly", async function(){
             const res = await fundMe.getPriceFeed()
             assert.equal(res, mockV3Aggregator.target)
